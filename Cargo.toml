@@ -1,0 +1,10 @@
+[package]
+name = "scratch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+os_pipe = "1.2.1"
+shared_child = "1.0.1"
+tokio = { version = "1", features = ["full"] }
